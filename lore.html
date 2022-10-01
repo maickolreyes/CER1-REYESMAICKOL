@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo col-sm-4"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lore.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skins.html">Aspectos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#roles" aria-expanded="false" aria-controls="roles">
+          Roles
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#regiones" aria-expanded="false" aria-controls="regiones">
+            Región
+        </button>
+
+      <div class="collapse" id="roles">
+        <div class="card">
+            <img src="https://universe.leagueoflegends.com/images/role_icon_marksman.png" class="card-img-top card-adc" alt="Icono rol de ADC dentro del juego">
+            <div class="card-body adc">
+                <br>
+                <h5 class="card-title">ADC</h5>
+                <br>
+                <p class="card-text">El Attack Damage Carry (ADC) es uno de los jugadores principales del equipo y probablemente la mayor fuente de daño del mismo.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://universe.leagueoflegends.com/images/role_icon_support.png" class="card-img-top card-supp" alt="Icono rol de Support dentro del juego">
+                <div class="card-body supp">
+                    <br>
+                    <h5 class="card-title">Support</h5>
+                    <br>
+                    <p class="card-text"> El soporte es un jugador que debe encargarse de reforzar y/o apoyar a sus compañeros de equipo mediante la utilidad brindada por sus bonificaciones, curaciones, escudos, inmovilizaciones a los enemigos y cualquier otro control de masas existente.</p>
+                </div>
+        </div>
+      </div>
+
+      <div class="collapse" id="regiones">
+        <div class="card">
+            <img src="https://universe.leagueoflegends.com/images/default_emblem.png" class="card-img-top card-region" alt="Icono región de Runaterra dentro del Juego">
+            <div class="card-body region">
+                <br>
+                <h5 class="card-title">Región: Runaterra</h5>
+                <br>
+                <p class="card-text">Runeterra es el mundo en el que existe el supercontinente de Valoran, junto con sus naciones y todas sus figuras influyentes.</p>
+            </div>
+        </div>
+      </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

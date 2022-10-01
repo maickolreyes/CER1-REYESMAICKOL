@@ -1,66 +1,81 @@
 *{
-    margin: 0%;
     padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
 nav{
     width: 100vw;
-    height: 8vh;
-    background-color: #76a7ac;
+    height: 10vh;
 }
 
 .logo{
     width: 30vw;
     height: 8vh;
-    float: left;
-    background-size: contain;
     background-image: url("https://www.leagueoflegends.com/static/logo-1200-589b3ef693ce8a750fa4b4704f1e61f2.png");
+    background-size: contain;
+    background-position: left center;
     background-repeat: no-repeat;
-    background-position: left;
 }
 
-.menu{
-    padding-top: 3vh;
-    width: 70vw;
-    height: 8vh;
-    float: left;
-}
-
-.menu li{
-    float: left;
-    list-style: none;
-}
-
-.menu li a{
-    display: block;
-    padding-left: 10vh;
-    color: #05100f;
-    text-decoration: none;
-}
-
-.foto{
+#imagen{
     width: 100vw;
-    height: 92vh;
+    height: 90vh;
     background-color: #05100f;
-    background-image: url("https://64.media.tumblr.com/57d552d7833fe5c28adbca7755beaefd/f92601ff2824b849-ca/s540x810/19f270b06ec9e07c07677a001a282e8f8e2f2a72.gif");
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Senna_0.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-section{
-    width: 100vw;
-    height: 92vh;
-}
-
-#lore .card{
-    width: 18vw;
-    height: 50vh;
-}
-
-#lore div{
-    margin-left: 10%;
-    margin-right: 5%;
+div .card{
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 40%;
     float: left;
 }
 
+#skins{
+    width: 100%;
+    height: 90%;
+}
+
+#skins .carousel{
+    height: auto; 
+    width: auto; 
+    max-width: 100vw; 
+    max-height: 90vh;
+}
+
+#skins .carousel-inner .carousel-item img{
+    height: auto; 
+    width: auto; 
+    max-width: 100vw; 
+    max-height: 90vh;
+}
+
+.accordion-body div{
+    width: auto;
+    max-width: 50vw;
+    height: auto;
+    max-height: 90vh;
+    float: left;
+    text-align: justify;
+}
+
+.botones{
+    float: left;
+    text-align: center;
+}
+
+.video{
+    width: auto;
+    max-width: 40vw;
+    height: auto;
+    max-height: 30vh;
+}

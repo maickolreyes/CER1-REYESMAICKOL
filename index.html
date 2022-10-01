@@ -4,34 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>League of Legends</title>
-    <link rel="icon" href="img/league_of_legends.live.ico">
+    <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="logo"></div>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="senna.html">Senna</a></li>
-                <li><a href="jhin.html">Jhin</a></li>
-                <li><a href="ornn.html">Ornn</a></li>
-            </ul>
-        </div>
-    </header>
-    
-    <section class="info">
-        <div class="texto">
-            League of Legends es un juego de estrategia divor equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 140 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.
-        </div>
-        <div class="ganar">
-            Para llegar hasta el nexo enemigo, tu equipo tendrá que avanzar por al menos una calle. Hay estructuras defensivas que bloquean tu avance: las torretas y los inhibidores. Cada calle cuenta con tres torretas y un inhibidor. Además, cada nexo tiene dos torretas adicionales.
-        </div>
-    </section>
 
-
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo col-sm-4"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="lore.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skills.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skins.html">Aspectos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="imagen" class="foto"></div>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
